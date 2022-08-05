@@ -2,7 +2,7 @@
 #SBATCH --job-name          simple-template
 #SBATCH --time              720:00:00
 #SBATCH --nodes             1
-#SBATCH --tasks-per-node    7
+#SBATCH --tasks-per-node    12
 #SBATCH --mem-per-cpu       2G
 #SBATCH --error             output-%j.error
 #SBATCH --output            output-%j.output
