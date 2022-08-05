@@ -14,4 +14,4 @@ module purge
 module load stress-ng/1.0
 
 # Comandos que seran ejecutados
-stress-ng --cpu 7 -t 15m &> output.result
+stress-ng --cpu 12 -t 5m &> output.result
